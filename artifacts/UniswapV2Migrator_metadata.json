@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_factoryV1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_router",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountTokenMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountETHMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "migrate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"UniswapV2Migrator.sol": "UniswapV2Migrator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@uniswap/lib/contracts/libraries/TransferHelper.sol": {
+			"keccak256": "0xaff99b54915f57e2a4e71b8d15afd4ee425410e5a6f45c07517ae1beb806f8bd",
+			"urls": [
+				"bzz-raw://15432ec031f4cfa6709921289e198b030a0c5eac75b5a3e0eb64827a2b3b5595",
+				"dweb:/ipfs/QmZvR1KuuDvuzXFiADCngTKyMCTy31uhq9U6CazP59B55j"
+			]
+		},
+		"UniswapV2Migrator.sol": {
+			"keccak256": "0xe16d7f6510f142bfb3dfd3b5431446070bbb074de170751790d0ee39b99be68e",
+			"urls": [
+				"bzz-raw://aec06254770a7a07ffcf695e7314ad4dcdb5ad7bbe57ae27f1af8a2c3f0eb9fc",
+				"dweb:/ipfs/QmPNPF3X1RnuqPoamvDmdKaNRRKdULXbsLH1vRBfD3jbWA"
+			]
+		},
+		"interfaces/IERC20.sol": {
+			"keccak256": "0xa791b279660ee5eb66ebd4f23b539055d178ae24677f3a164567441ecfdcf73a",
+			"urls": [
+				"bzz-raw://06f36f585a8b82eb388ccccc4e8c483718a99a07f5f12d3217afc254ab139a68",
+				"dweb:/ipfs/Qmedr3aAH6F3ZTgZJ3enoP92ZD8yNwiCStwtGknNXhiK8v"
+			]
+		},
+		"interfaces/IUniswapV2Migrator.sol": {
+			"keccak256": "0xe46d8dc36c4522d546413d498fd03ac57ff104c657e9b53b56f29fbd9de65ddd",
+			"urls": [
+				"bzz-raw://59aa5550a9ee874f4a7a8b8b4e02fe7b2be6c9960806e6971cc30a02a3d7f013",
+				"dweb:/ipfs/Qmbv99jUqF2b1giBU8DeKgCaphha6pmMUrEs1DTwevK2DA"
+			]
+		},
+		"interfaces/IUniswapV2Router01.sol": {
+			"keccak256": "0xfe83a9e3c9130c3e834aa2b5731b46c3ef512f37b8ce354e15c53f918f31fb7a",
+			"urls": [
+				"bzz-raw://6444ce3d89164b97ead0de21f392d738838f823c8a9a22a327b06cd5e9c52a8d",
+				"dweb:/ipfs/QmZ4xbNr85BhiK9NVyef127QekKfHVS5ShLmmboXk9a9gr"
+			]
+		},
+		"interfaces/V1/IUniswapV1Exchange.sol": {
+			"keccak256": "0xdac552a87c3671f333e7af4ae1018b0e1333ff15ba4c0a77231eeb8051037b84",
+			"urls": [
+				"bzz-raw://b57061e4472678ea656099be311b320f8f10af9669bd779f7dc65e4529b564e1",
+				"dweb:/ipfs/QmeHaPYihhx9BqZ6gyTXgn8LoBautzTS9U3CbuY9pczWUm"
+			]
+		},
+		"interfaces/V1/IUniswapV1Factory.sol": {
+			"keccak256": "0xb759a8fb8c3fe734d7c11c8ff4ef5e005fa66b0da59db9358a9dc4cdb8a2c179",
+			"urls": [
+				"bzz-raw://6166317a716b193511b81d5831be464efb885c2c2ffbe4b8b40cb2872d132c7a",
+				"dweb:/ipfs/QmdB83RKBPrAnJmWx3xjqfZtV1F32RhQKnv9WiviTPXgVB"
+			]
+		}
+	},
+	"version": 1
+}
