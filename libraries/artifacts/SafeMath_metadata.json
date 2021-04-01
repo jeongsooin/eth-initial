@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.16+commit.9c3226ce"
+		"version": "0.6.6+commit.6c089d02"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,6 +18,9 @@
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -26,10 +29,10 @@
 	},
 	"sources": {
 		"libraries/SafeMath.sol": {
-			"keccak256": "0x0971f460e457e3ab46656cbbaa31e2715061463ed8175d47f497ac52ac68ecca",
+			"keccak256": "0xc4cfb50d34474a7e5c72fe2d18fae6e8fb0de77bc75cf4603948f43ed158977c",
 			"urls": [
-				"bzz-raw://0dff2b89b96343c259ca288471bf086898ea11a80056c8384a6ea54b6ad09308",
-				"dweb:/ipfs/QmPSMSCZXDmKeXea73p4kuHd5wQDgcV9yj1GPqc8iErpWf"
+				"bzz-raw://c8b28e7228e20b67264241b222ad02087d04206412994be0de5da47912e1de40",
+				"dweb:/ipfs/QmPZW2yszrot4bhk8dBtgFEfuQVwUj66XZkXLepPZui9Dq"
 			]
 		}
 	},
