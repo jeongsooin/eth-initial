@@ -20,7 +20,7 @@ contract WETH9 {
     string public symbol   = "WETH";
     uint8  public decimals = 18;
 
-    // event  Approval(address indexed src, address indexed guy, uint wad);
+    event  Approval(address indexed src, address indexed guy, uint wad);
     event  Transfer(address indexed src, address indexed dst, uint wad);
     event  Deposit(address indexed dst, uint wad);
     event  Withdrawal(address indexed src, uint wad);
@@ -46,13 +46,12 @@ contract WETH9 {
         return address(this).balance;
     }
 
-/*
     function approve(address guy, uint wad) public returns (bool) {
-        allowance[msg.sender][guy] = wad;
-        emit Approval(msg.sender, guy, wad);
+       // allowance[msg.sender][guy] = wad;
+       // emit Approval(msg.sender, guy, wad);
         return true;
     }
-*/
+    
     function transfer(address dst, uint wad) public returns (bool) {
         return transferFrom(msg.sender, dst, wad);
     }

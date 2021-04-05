@@ -17,6 +17,31 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "sender",
 						"type": "address"
 					},
@@ -223,6 +248,32 @@
 				],
 				"payable": false,
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -680,59 +731,59 @@
 		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"IUniswapV2Pair.sol": {
-			"keccak256": "0xb5931d1e2d11255d5d4beaa0ea4aca6c89818f28c647847e0a0f2282cf3781f2",
+			"keccak256": "0xbe2d63a634cf6faff87ffe2a1dd01853bc267425214026711cf0ac32d1dc7f2e",
 			"urls": [
-				"bzz-raw://b80c7d8a4707965b182913a592dec0ff66aa57519ba8ead430b7fdce4726063b",
-				"dweb:/ipfs/QmWNuxH31pHtRZeFMsrJxFudWAac5TEGzttKUKUxEFu1FA"
+				"bzz-raw://845dd7df107010305d2023a6218db53961305b7c2f0462de41950f6c71458ddd",
+				"dweb:/ipfs/QmdNkVzCebEc6ihngby6ZNZHhhixERH5iuvf3HVvcDcRC6"
 			]
 		},
 		"UniswapV2ERC20.sol": {
-			"keccak256": "0xaa0466bc530b7ff8d7d4847eb9e53a5c5fefc3521abab7acf0370ca4fe77a6a8",
+			"keccak256": "0x35e72e4620ac185e9f41e90ca09eebd4cd12c52ae6805e4a5e5873f2cb9088aa",
 			"urls": [
-				"bzz-raw://b81415a7778873f90beb7e2526393be6648d5dbeac1bb0e8d2a9ecec1f069666",
-				"dweb:/ipfs/QmVSWxRFRe6vmbFtGhKCg6SapKW2S1BumKYgWj3idmdKJs"
+				"bzz-raw://90037b99dd5e9c38ed37c3d801a43a8b756c68d1b25d0fc0959a81162b3c0f4d",
+				"dweb:/ipfs/QmTZMKq1kS4xKzdqxkjwixzWrk5YqiJvExpCp252DeLxAM"
 			]
 		},
 		"UniswapV2Pair.sol": {
-			"keccak256": "0x3a7ee4cfc1d503cceddb688722e1ea849c33abbd4637b503742c9e2ab1580596",
+			"keccak256": "0xe47060fde2bdd6b9eae272f559052d83aadabb3a48ea712b992b5de377cf9268",
 			"urls": [
-				"bzz-raw://9e332a08beb37bc7b5d40e7ca10f06ec1c20ed7567366718269769fce3977230",
-				"dweb:/ipfs/QmdbjAKm7dSMjukkj14gPsm41dgoGsR7DyMdhBrUzZsdry"
+				"bzz-raw://71c83555be3c220e909852ee5c6cdeadd49369314bdf717315149f8e3a1efd2d",
+				"dweb:/ipfs/QmeQHr6U5df5TMbSpiJpiRQLSWTHc8YjfRhpwuthJmpZ3A"
 			]
 		},
 		"interfaces/IERC20.sol": {
-			"keccak256": "0x1c2b3207eb908618317c321514d40f74d65dea93d6ea99124c74d7d0f60dc8d1",
+			"keccak256": "0xa791b279660ee5eb66ebd4f23b539055d178ae24677f3a164567441ecfdcf73a",
 			"urls": [
-				"bzz-raw://66e8c7d06606802d725466b55ad36c613969c14bbcef9cedfbe285321bd4ffcb",
-				"dweb:/ipfs/QmQw2RDPoF2czpLoMwdRtUvyci8ryYvVQ6vxJ33S5SbS1p"
+				"bzz-raw://06f36f585a8b82eb388ccccc4e8c483718a99a07f5f12d3217afc254ab139a68",
+				"dweb:/ipfs/Qmedr3aAH6F3ZTgZJ3enoP92ZD8yNwiCStwtGknNXhiK8v"
 			]
 		},
 		"interfaces/IUniswapV2Callee.sol": {
-			"keccak256": "0xdb17a1fb73e261e736ae8862be2d9a32964fc4b3741f48980f5cdc9d92b99a96",
+			"keccak256": "0x514f1fef54c3ec96f0a9b4fbf4980ad71e8ffb237cfc8e872f18ad5d7a199cac",
 			"urls": [
-				"bzz-raw://468dab23a95d9d9b7d6ce74008d45eef3de2f137ede604e6be6c5e7d0121c5e9",
-				"dweb:/ipfs/QmcXwjTfp6tCRgf1KsNQyUAtrqKhiaN6fbaHVGr22eficP"
+				"bzz-raw://33ea4f734ba9e3435cda61424cd7ed392d4b915b5fba33e8625807b08c6b9f77",
+				"dweb:/ipfs/QmfSZ3J1ZJHfdX1RUFc3sKn4vpWJRBpaJnvLTgQLUsggcQ"
 			]
 		},
 		"interfaces/IUniswapV2ERC20.sol": {
-			"keccak256": "0xa62f53ef5cf9c25f3d8fe749d46da093c88a74dfee8d201e420e4286779f1593",
+			"keccak256": "0x816d72cd0874b11baf20d1e889a694f1653fa668939d70f892511c03941bb1d3",
 			"urls": [
-				"bzz-raw://abb2af0c764506fdfd921cfe941d6723ba474b049c6ff82b1ffd4d239dfe16c4",
-				"dweb:/ipfs/QmUYpscWeXhng8rSg7MJGC36F8f9SmZDNMWwuse4hTTMkZ"
+				"bzz-raw://f662458fd5da66ec478a62f7abdc1c12809be3ddd456fd5c7edb549121c2cff1",
+				"dweb:/ipfs/QmeBZk4pnKqrgZACQs9hYNWXsTEL6JdPTx1LMf2tgi5Ybi"
 			]
 		},
 		"interfaces/IUniswapV2Factory.sol": {
-			"keccak256": "0xe5905c0989cf5a865ed9bb7b9252536ca011c5b744017a82a7d4443b9c00a891",
+			"keccak256": "0xbb02a490e88409dec5dd348332da3209c143899810f7b09c6daacd5c0e94da87",
 			"urls": [
-				"bzz-raw://5d2a90a0a796491507462a3da18c3f8819721d571572d765a2207c35bf0a0389",
-				"dweb:/ipfs/Qmf9ACYiT3qzjgsYuhm866FBdiBpRMXAPpQhSFbgqcyhHt"
+				"bzz-raw://29423a8d67eb9fafdacc511cef6465f1251d1b60b522a1fd9bdce70fab08ee0a",
+				"dweb:/ipfs/QmfBVeA6RwP7tQdWoFHMHNrpS169cyuM28qDznG6LZ4Aig"
 			]
 		},
 		"libraries/Math.sol": {

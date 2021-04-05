@@ -17,6 +17,31 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "from",
 						"type": "address"
 					},
@@ -90,6 +115,32 @@
 				],
 				"payable": false,
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -311,24 +362,24 @@
 		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"UniswapV2ERC20.sol": {
-			"keccak256": "0xaa0466bc530b7ff8d7d4847eb9e53a5c5fefc3521abab7acf0370ca4fe77a6a8",
+			"keccak256": "0xbba1554a0d7f0236ee5405367692867a10c6581accae84ee4e5dac792cf261c0",
 			"urls": [
-				"bzz-raw://b81415a7778873f90beb7e2526393be6648d5dbeac1bb0e8d2a9ecec1f069666",
-				"dweb:/ipfs/QmVSWxRFRe6vmbFtGhKCg6SapKW2S1BumKYgWj3idmdKJs"
+				"bzz-raw://bade9acd95294448b045b5aada8fe0dc4134372a79f9f22a75fb6598197e8a15",
+				"dweb:/ipfs/QmUG7w994741U9xwb8FMsWLoM35eDaCqPRqEr9koVBsVQY"
 			]
 		},
 		"interfaces/IUniswapV2ERC20.sol": {
-			"keccak256": "0xa62f53ef5cf9c25f3d8fe749d46da093c88a74dfee8d201e420e4286779f1593",
+			"keccak256": "0x816d72cd0874b11baf20d1e889a694f1653fa668939d70f892511c03941bb1d3",
 			"urls": [
-				"bzz-raw://abb2af0c764506fdfd921cfe941d6723ba474b049c6ff82b1ffd4d239dfe16c4",
-				"dweb:/ipfs/QmUYpscWeXhng8rSg7MJGC36F8f9SmZDNMWwuse4hTTMkZ"
+				"bzz-raw://f662458fd5da66ec478a62f7abdc1c12809be3ddd456fd5c7edb549121c2cff1",
+				"dweb:/ipfs/QmeBZk4pnKqrgZACQs9hYNWXsTEL6JdPTx1LMf2tgi5Ybi"
 			]
 		},
 		"libraries/SafeMath.sol": {

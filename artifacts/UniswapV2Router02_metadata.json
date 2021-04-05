@@ -994,45 +994,45 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"@uniswap/lib/contracts/libraries/TransferHelper.sol": {
-			"keccak256": "0xaff99b54915f57e2a4e71b8d15afd4ee425410e5a6f45c07517ae1beb806f8bd",
+		"IUniswapV2Factory.sol": {
+			"keccak256": "0xbb02a490e88409dec5dd348332da3209c143899810f7b09c6daacd5c0e94da87",
 			"urls": [
-				"bzz-raw://15432ec031f4cfa6709921289e198b030a0c5eac75b5a3e0eb64827a2b3b5595",
-				"dweb:/ipfs/QmZvR1KuuDvuzXFiADCngTKyMCTy31uhq9U6CazP59B55j"
-			]
-		},
-		"@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
-			"keccak256": "0xe5905c0989cf5a865ed9bb7b9252536ca011c5b744017a82a7d4443b9c00a891",
-			"urls": [
-				"bzz-raw://5d2a90a0a796491507462a3da18c3f8819721d571572d765a2207c35bf0a0389",
-				"dweb:/ipfs/Qmf9ACYiT3qzjgsYuhm866FBdiBpRMXAPpQhSFbgqcyhHt"
+				"bzz-raw://29423a8d67eb9fafdacc511cef6465f1251d1b60b522a1fd9bdce70fab08ee0a",
+				"dweb:/ipfs/QmfBVeA6RwP7tQdWoFHMHNrpS169cyuM28qDznG6LZ4Aig"
 			]
 		},
 		"IUniswapV2Pair.sol": {
-			"keccak256": "0xb5931d1e2d11255d5d4beaa0ea4aca6c89818f28c647847e0a0f2282cf3781f2",
+			"keccak256": "0xbe2d63a634cf6faff87ffe2a1dd01853bc267425214026711cf0ac32d1dc7f2e",
 			"urls": [
-				"bzz-raw://b80c7d8a4707965b182913a592dec0ff66aa57519ba8ead430b7fdce4726063b",
-				"dweb:/ipfs/QmWNuxH31pHtRZeFMsrJxFudWAac5TEGzttKUKUxEFu1FA"
+				"bzz-raw://845dd7df107010305d2023a6218db53961305b7c2f0462de41950f6c71458ddd",
+				"dweb:/ipfs/QmdNkVzCebEc6ihngby6ZNZHhhixERH5iuvf3HVvcDcRC6"
+			]
+		},
+		"TransferHelper.sol": {
+			"keccak256": "0xeea8564e527b64b5201b31c01f713ee2b6897eb63fb83bf1b0da7a82b668b60c",
+			"urls": [
+				"bzz-raw://936050173b4c572e0193bb232579b2fe5a714faa83c43476568c707c022674f4",
+				"dweb:/ipfs/QmQzNm9bZ546rak7DZaucYZFU1dUUVrEFbTf9RqLG3XekD"
 			]
 		},
 		"UniswapV2Router02.sol": {
-			"keccak256": "0x7a976c95f850f01536933807996e194f22c60d212ba94ac4748252d2438d6de4",
+			"keccak256": "0xe954bef473e0c5c977fa19537f22a8c0e9bfcf3dd8aac98b2d681077e04424e2",
 			"urls": [
-				"bzz-raw://6ec31f8e14f14eb5eb4e619f23f054b89543ed7a50f1d3fd3768a6c6784a3425",
-				"dweb:/ipfs/QmaHWkgLJbhnFZ6VaPA4v5CCGyfQ7E12XrCfagW1edVAx6"
+				"bzz-raw://58e5aded224a325032769b0fecca03a1393cbfc093fb9a6af14dae912bcea622",
+				"dweb:/ipfs/QmabK68Meh1wM9VB6XWuRgTmu8RqMY4L7YtdMC5Pi1A8it"
 			]
 		},
 		"interfaces/IERC20.sol": {
-			"keccak256": "0x1c2b3207eb908618317c321514d40f74d65dea93d6ea99124c74d7d0f60dc8d1",
+			"keccak256": "0xa791b279660ee5eb66ebd4f23b539055d178ae24677f3a164567441ecfdcf73a",
 			"urls": [
-				"bzz-raw://66e8c7d06606802d725466b55ad36c613969c14bbcef9cedfbe285321bd4ffcb",
-				"dweb:/ipfs/QmQw2RDPoF2czpLoMwdRtUvyci8ryYvVQ6vxJ33S5SbS1p"
+				"bzz-raw://06f36f585a8b82eb388ccccc4e8c483718a99a07f5f12d3217afc254ab139a68",
+				"dweb:/ipfs/Qmedr3aAH6F3ZTgZJ3enoP92ZD8yNwiCStwtGknNXhiK8v"
 			]
 		},
 		"interfaces/IUniswapV2Router01.sol": {

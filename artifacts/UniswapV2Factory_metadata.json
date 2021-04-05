@@ -211,31 +211,31 @@
 		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"IUniswapV2Pair.sol": {
-			"keccak256": "0xb5931d1e2d11255d5d4beaa0ea4aca6c89818f28c647847e0a0f2282cf3781f2",
+			"keccak256": "0xbe2d63a634cf6faff87ffe2a1dd01853bc267425214026711cf0ac32d1dc7f2e",
 			"urls": [
-				"bzz-raw://b80c7d8a4707965b182913a592dec0ff66aa57519ba8ead430b7fdce4726063b",
-				"dweb:/ipfs/QmWNuxH31pHtRZeFMsrJxFudWAac5TEGzttKUKUxEFu1FA"
+				"bzz-raw://845dd7df107010305d2023a6218db53961305b7c2f0462de41950f6c71458ddd",
+				"dweb:/ipfs/QmdNkVzCebEc6ihngby6ZNZHhhixERH5iuvf3HVvcDcRC6"
 			]
 		},
 		"UniswapV2ERC20.sol": {
-			"keccak256": "0xaa0466bc530b7ff8d7d4847eb9e53a5c5fefc3521abab7acf0370ca4fe77a6a8",
+			"keccak256": "0x1647909094cf1d02d3ec6b3462d589e22716ff4f9bf55ef98120ac407d211928",
 			"urls": [
-				"bzz-raw://b81415a7778873f90beb7e2526393be6648d5dbeac1bb0e8d2a9ecec1f069666",
-				"dweb:/ipfs/QmVSWxRFRe6vmbFtGhKCg6SapKW2S1BumKYgWj3idmdKJs"
+				"bzz-raw://e97a685b5cd438329f9bdfd7814dec1ce713920ab567715b7d4dc5215ed11f4a",
+				"dweb:/ipfs/Qmf8aewd5xdsjUu8spunpRVjWnAPk3k6ztvff6wntpCxde"
 			]
 		},
 		"UniswapV2Factory.sol": {
-			"keccak256": "0x7c08d9f4843d9c6d553e07279106bd26ca9dc3d77d6a42f11143a2a79bfed90f",
+			"keccak256": "0xb9e3cba87b86cbf6d447d8ecf6ba7ec5b24e627b7c94aeaea822542b7d066736",
 			"urls": [
-				"bzz-raw://15ec91139795f8074f4a13e58b0e65dd123b655803fd5960ff3da1413a120552",
-				"dweb:/ipfs/QmNxprgtsEnbsDGrDeUh3QmXncEd9rJrVNb1kUfc1vSGLE"
+				"bzz-raw://90571da3a50d8ba80a437b1984c304039bd4d87127099be70cd5bfa614b8e5ac",
+				"dweb:/ipfs/QmVhjQPAqZoXapUnQrKdvS3FozApBMvJ7nndQEG5F6Hpx6"
 			]
 		},
 		"UniswapV2Pair.sol": {
@@ -246,31 +246,31 @@
 			]
 		},
 		"interfaces/IERC20.sol": {
-			"keccak256": "0x1c2b3207eb908618317c321514d40f74d65dea93d6ea99124c74d7d0f60dc8d1",
+			"keccak256": "0xa791b279660ee5eb66ebd4f23b539055d178ae24677f3a164567441ecfdcf73a",
 			"urls": [
-				"bzz-raw://66e8c7d06606802d725466b55ad36c613969c14bbcef9cedfbe285321bd4ffcb",
-				"dweb:/ipfs/QmQw2RDPoF2czpLoMwdRtUvyci8ryYvVQ6vxJ33S5SbS1p"
+				"bzz-raw://06f36f585a8b82eb388ccccc4e8c483718a99a07f5f12d3217afc254ab139a68",
+				"dweb:/ipfs/Qmedr3aAH6F3ZTgZJ3enoP92ZD8yNwiCStwtGknNXhiK8v"
 			]
 		},
 		"interfaces/IUniswapV2Callee.sol": {
-			"keccak256": "0xdb17a1fb73e261e736ae8862be2d9a32964fc4b3741f48980f5cdc9d92b99a96",
+			"keccak256": "0x514f1fef54c3ec96f0a9b4fbf4980ad71e8ffb237cfc8e872f18ad5d7a199cac",
 			"urls": [
-				"bzz-raw://468dab23a95d9d9b7d6ce74008d45eef3de2f137ede604e6be6c5e7d0121c5e9",
-				"dweb:/ipfs/QmcXwjTfp6tCRgf1KsNQyUAtrqKhiaN6fbaHVGr22eficP"
+				"bzz-raw://33ea4f734ba9e3435cda61424cd7ed392d4b915b5fba33e8625807b08c6b9f77",
+				"dweb:/ipfs/QmfSZ3J1ZJHfdX1RUFc3sKn4vpWJRBpaJnvLTgQLUsggcQ"
 			]
 		},
 		"interfaces/IUniswapV2ERC20.sol": {
-			"keccak256": "0xa62f53ef5cf9c25f3d8fe749d46da093c88a74dfee8d201e420e4286779f1593",
+			"keccak256": "0x816d72cd0874b11baf20d1e889a694f1653fa668939d70f892511c03941bb1d3",
 			"urls": [
-				"bzz-raw://abb2af0c764506fdfd921cfe941d6723ba474b049c6ff82b1ffd4d239dfe16c4",
-				"dweb:/ipfs/QmUYpscWeXhng8rSg7MJGC36F8f9SmZDNMWwuse4hTTMkZ"
+				"bzz-raw://f662458fd5da66ec478a62f7abdc1c12809be3ddd456fd5c7edb549121c2cff1",
+				"dweb:/ipfs/QmeBZk4pnKqrgZACQs9hYNWXsTEL6JdPTx1LMf2tgi5Ybi"
 			]
 		},
 		"interfaces/IUniswapV2Factory.sol": {
-			"keccak256": "0xe5905c0989cf5a865ed9bb7b9252536ca011c5b744017a82a7d4443b9c00a891",
+			"keccak256": "0xbb02a490e88409dec5dd348332da3209c143899810f7b09c6daacd5c0e94da87",
 			"urls": [
-				"bzz-raw://5d2a90a0a796491507462a3da18c3f8819721d571572d765a2207c35bf0a0389",
-				"dweb:/ipfs/Qmf9ACYiT3qzjgsYuhm866FBdiBpRMXAPpQhSFbgqcyhHt"
+				"bzz-raw://29423a8d67eb9fafdacc511cef6465f1251d1b60b522a1fd9bdce70fab08ee0a",
+				"dweb:/ipfs/QmfBVeA6RwP7tQdWoFHMHNrpS169cyuM28qDznG6LZ4Aig"
 			]
 		},
 		"libraries/Math.sol": {

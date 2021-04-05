@@ -276,7 +276,7 @@ const init = async () => {
         type: "function",
       },
     ],
-    "0x517549302fbe8bcb283269253facf746d20584bd"
+    "0x0cc2a3da880de99da0b6842be7473364ce6837a5"
   );
 
   const factory = new web3.eth.Contract(
@@ -473,7 +473,7 @@ const init = async () => {
         type: "function",
       },
     ],
-    "0x9f61747bba819b8ef3553e1b04fd0efbd0addd64"
+    "0x3f566c16bd1989cb33e1c72d223dd8737aa01203"
   );
 
   const contract = new web3.eth.Contract(
@@ -1450,7 +1450,7 @@ const init = async () => {
         type: "function",
       },
     ],
-    "0x3aab971bc91e517d193872453760fa89ef070a0f"
+    "0x7e77fab660b99c656daf1ca024e8bff85b07114a"
   );
 
   console.log(
@@ -1510,8 +1510,8 @@ const init = async () => {
   try {
     const result = await contract.methods
       .addLiquidity(
-        "0x8f5bdd9dfc259539161fd4df251f4dce7fcb0c9d",
-        "0x85d58171a866a23df45b223c4088ff0ec64245e6",
+        "0xb5f5e6811dc4e006adba7dedff36bf1db979137c",
+        "0xa4977293bbddf9b6e370f7fdeed9bf719bff7525",
         "1000000000000000000",
         "1000000000000000000",
         "900000000000000000",
@@ -1521,7 +1521,7 @@ const init = async () => {
       )
       .send({
         from: "0x85def61bA9475Eb9f76Bf3b33545692Eb2585712",
-        gas: 27864,
+        gas: 100000000,
       })
       .on("transactionHash", (hash) => {
         console.log("│　chainId : ", id);
@@ -1559,28 +1559,27 @@ const init = async () => {
     });
 
   /* Factory contract test */
-  /*
+
   try {
     const result = await factory.methods.allPairsLength().call();
-    console.log(result);
+    console.log("│　allPairsLength : ", result);
   } catch (error) {
     console.log("　　에러 메시지 : ", error);
     console.log(
       "　──────────────────────────────────────────────────────────────────────────────────"
     );
   }
-  */
+
   /* WETH contract test */
-  /*
+
   try {
     const result = await weth.methods.deposit().call();
-    console.log(result);
+    console.log("│　deposit : ", result);
   } catch (error) {
     console.log("　　에러 메시지 : ", error);
     console.log(
       "　──────────────────────────────────────────────────────────────────────────────────"
     );
   }
-  */
 };
 init();
