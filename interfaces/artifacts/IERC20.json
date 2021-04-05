@@ -31,12 +31,15 @@
 	},
 	"data": {
 		"bytecode": {
+			"generatedSources": [],
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
 			"sourceMap": ""
 		},
 		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
@@ -45,7 +48,6 @@
 		"gasEstimates": null,
 		"methodIdentifiers": {
 			"allowance(address,address)": "dd62ed3e",
-			"approve(address,uint256)": "095ea7b3",
 			"balanceOf(address)": "70a08231",
 			"decimals()": "313ce567",
 			"name()": "06fdde03",
@@ -56,31 +58,6 @@
 		}
 	},
 	"abi": [
-		{
-			"anonymous": false,
-			"inputs": [
-				{
-					"indexed": true,
-					"internalType": "address",
-					"name": "owner",
-					"type": "address"
-				},
-				{
-					"indexed": true,
-					"internalType": "address",
-					"name": "spender",
-					"type": "address"
-				},
-				{
-					"indexed": false,
-					"internalType": "uint256",
-					"name": "value",
-					"type": "uint256"
-				}
-			],
-			"name": "Approval",
-			"type": "event"
-		},
 		{
 			"anonymous": false,
 			"inputs": [
@@ -107,7 +84,6 @@
 			"type": "event"
 		},
 		{
-			"constant": true,
 			"inputs": [
 				{
 					"internalType": "address",
@@ -128,38 +104,10 @@
 					"type": "uint256"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": false,
-			"inputs": [
-				{
-					"internalType": "address",
-					"name": "spender",
-					"type": "address"
-				},
-				{
-					"internalType": "uint256",
-					"name": "value",
-					"type": "uint256"
-				}
-			],
-			"name": "approve",
-			"outputs": [
-				{
-					"internalType": "bool",
-					"name": "",
-					"type": "bool"
-				}
-			],
-			"payable": false,
-			"stateMutability": "nonpayable",
-			"type": "function"
-		},
-		{
-			"constant": true,
 			"inputs": [
 				{
 					"internalType": "address",
@@ -175,12 +123,10 @@
 					"type": "uint256"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": true,
 			"inputs": [],
 			"name": "decimals",
 			"outputs": [
@@ -190,12 +136,10 @@
 					"type": "uint8"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": true,
 			"inputs": [],
 			"name": "name",
 			"outputs": [
@@ -205,12 +149,10 @@
 					"type": "string"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": true,
 			"inputs": [],
 			"name": "symbol",
 			"outputs": [
@@ -220,12 +162,10 @@
 					"type": "string"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": true,
 			"inputs": [],
 			"name": "totalSupply",
 			"outputs": [
@@ -235,12 +175,10 @@
 					"type": "uint256"
 				}
 			],
-			"payable": false,
 			"stateMutability": "view",
 			"type": "function"
 		},
 		{
-			"constant": false,
 			"inputs": [
 				{
 					"internalType": "address",
@@ -261,12 +199,10 @@
 					"type": "bool"
 				}
 			],
-			"payable": false,
 			"stateMutability": "nonpayable",
 			"type": "function"
 		},
 		{
-			"constant": false,
 			"inputs": [
 				{
 					"internalType": "address",
@@ -292,7 +228,6 @@
 					"type": "bool"
 				}
 			],
-			"payable": false,
 			"stateMutability": "nonpayable",
 			"type": "function"
 		}

@@ -1,35 +1,10 @@
 {
 	"compiler": {
-		"version": "0.5.16+commit.9c3226ce"
+		"version": "0.8.3+commit.8d00100c"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "Approval",
-				"type": "event"
-			},
 			{
 				"anonymous": false,
 				"inputs": [
@@ -56,7 +31,6 @@
 				"type": "event"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "DOMAIN_SEPARATOR",
 				"outputs": [
@@ -66,12 +40,10 @@
 						"type": "bytes32"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "PERMIT_TYPEHASH",
 				"outputs": [
@@ -81,12 +53,10 @@
 						"type": "bytes32"
 					}
 				],
-				"payable": false,
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -107,38 +77,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "approve",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -154,12 +96,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -169,12 +109,10 @@
 						"type": "uint8"
 					}
 				],
-				"payable": false,
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -184,12 +122,10 @@
 						"type": "string"
 					}
 				],
-				"payable": false,
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -205,12 +141,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -250,12 +184,10 @@
 				],
 				"name": "permit",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "symbol",
 				"outputs": [
@@ -265,12 +197,10 @@
 						"type": "string"
 					}
 				],
-				"payable": false,
 				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
@@ -280,12 +210,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -306,12 +234,10 @@
 						"type": "bool"
 					}
 				],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -337,16 +263,19 @@
 						"type": "bool"
 					}
 				],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -355,6 +284,9 @@
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -363,10 +295,10 @@
 	},
 	"sources": {
 		"interfaces/IUniswapV2ERC20.sol": {
-			"keccak256": "0x816d72cd0874b11baf20d1e889a694f1653fa668939d70f892511c03941bb1d3",
+			"keccak256": "0xa62f53ef5cf9c25f3d8fe749d46da093c88a74dfee8d201e420e4286779f1593",
 			"urls": [
-				"bzz-raw://f662458fd5da66ec478a62f7abdc1c12809be3ddd456fd5c7edb549121c2cff1",
-				"dweb:/ipfs/QmeBZk4pnKqrgZACQs9hYNWXsTEL6JdPTx1LMf2tgi5Ybi"
+				"bzz-raw://abb2af0c764506fdfd921cfe941d6723ba474b049c6ff82b1ffd4d239dfe16c4",
+				"dweb:/ipfs/QmUYpscWeXhng8rSg7MJGC36F8f9SmZDNMWwuse4hTTMkZ"
 			]
 		}
 	},

@@ -218,17 +218,17 @@
 	},
 	"sources": {
 		"IUniswapV2Pair.sol": {
-			"keccak256": "0xbe2d63a634cf6faff87ffe2a1dd01853bc267425214026711cf0ac32d1dc7f2e",
+			"keccak256": "0xb5931d1e2d11255d5d4beaa0ea4aca6c89818f28c647847e0a0f2282cf3781f2",
 			"urls": [
-				"bzz-raw://845dd7df107010305d2023a6218db53961305b7c2f0462de41950f6c71458ddd",
-				"dweb:/ipfs/QmdNkVzCebEc6ihngby6ZNZHhhixERH5iuvf3HVvcDcRC6"
+				"bzz-raw://b80c7d8a4707965b182913a592dec0ff66aa57519ba8ead430b7fdce4726063b",
+				"dweb:/ipfs/QmWNuxH31pHtRZeFMsrJxFudWAac5TEGzttKUKUxEFu1FA"
 			]
 		},
 		"UniswapV2ERC20.sol": {
-			"keccak256": "0x29e71abf58e58fc896165ac1165d8e69c0cf73abcf6b8ce83d2b770d1125f82b",
+			"keccak256": "0xaa0466bc530b7ff8d7d4847eb9e53a5c5fefc3521abab7acf0370ca4fe77a6a8",
 			"urls": [
-				"bzz-raw://2fdd40992617e00b504dda5c8186e21b2ecb15961ae11a8fa04b4b2cbedc5f27",
-				"dweb:/ipfs/QmbsAuN95Q8LGNx1U7Dppgbae7oSdkmSBd2ck5JzfEPFC9"
+				"bzz-raw://b81415a7778873f90beb7e2526393be6648d5dbeac1bb0e8d2a9ecec1f069666",
+				"dweb:/ipfs/QmVSWxRFRe6vmbFtGhKCg6SapKW2S1BumKYgWj3idmdKJs"
 			]
 		},
 		"UniswapV2Factory.sol": {
@@ -246,10 +246,10 @@
 			]
 		},
 		"interfaces/IERC20.sol": {
-			"keccak256": "0xa791b279660ee5eb66ebd4f23b539055d178ae24677f3a164567441ecfdcf73a",
+			"keccak256": "0x1c2b3207eb908618317c321514d40f74d65dea93d6ea99124c74d7d0f60dc8d1",
 			"urls": [
-				"bzz-raw://06f36f585a8b82eb388ccccc4e8c483718a99a07f5f12d3217afc254ab139a68",
-				"dweb:/ipfs/Qmedr3aAH6F3ZTgZJ3enoP92ZD8yNwiCStwtGknNXhiK8v"
+				"bzz-raw://66e8c7d06606802d725466b55ad36c613969c14bbcef9cedfbe285321bd4ffcb",
+				"dweb:/ipfs/QmQw2RDPoF2czpLoMwdRtUvyci8ryYvVQ6vxJ33S5SbS1p"
 			]
 		},
 		"interfaces/IUniswapV2Callee.sol": {
@@ -260,10 +260,10 @@
 			]
 		},
 		"interfaces/IUniswapV2ERC20.sol": {
-			"keccak256": "0x816d72cd0874b11baf20d1e889a694f1653fa668939d70f892511c03941bb1d3",
+			"keccak256": "0xa62f53ef5cf9c25f3d8fe749d46da093c88a74dfee8d201e420e4286779f1593",
 			"urls": [
-				"bzz-raw://f662458fd5da66ec478a62f7abdc1c12809be3ddd456fd5c7edb549121c2cff1",
-				"dweb:/ipfs/QmeBZk4pnKqrgZACQs9hYNWXsTEL6JdPTx1LMf2tgi5Ybi"
+				"bzz-raw://abb2af0c764506fdfd921cfe941d6723ba474b049c6ff82b1ffd4d239dfe16c4",
+				"dweb:/ipfs/QmUYpscWeXhng8rSg7MJGC36F8f9SmZDNMWwuse4hTTMkZ"
 			]
 		},
 		"interfaces/IUniswapV2Factory.sol": {

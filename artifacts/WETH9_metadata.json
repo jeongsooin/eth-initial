@@ -11,31 +11,6 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "src",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "guy",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "wad",
-						"type": "uint256"
-					}
-				],
-				"name": "Approval",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
 						"name": "dst",
 						"type": "address"
 					},
@@ -115,30 +90,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "guy",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "wad",
-						"type": "uint256"
-					}
-				],
-				"name": "approve",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -310,10 +261,10 @@
 	},
 	"sources": {
 		"WETH9.sol": {
-			"keccak256": "0x0cb0dfa66f6ccc42c84cc05ad1dcd73bcd32b5b43c555d88943bf7aa3d13c76b",
+			"keccak256": "0x157213e3376e53e807e5e16174ff863565ee57537d1d2b63f5fd3a69d1523ef6",
 			"urls": [
-				"bzz-raw://3966c679f447b7b7044d645e671f738a814ec106a85adb1c0f42dccd5d1197e5",
-				"dweb:/ipfs/QmWtboNrsjmarKfUkM3YmTbR4BrUPGwbzAnWGdBcy9Cet4"
+				"bzz-raw://7976f95f3d09087f4fec1edfed0920053e83b0313374ae7bbe4e9a2f53f00626",
+				"dweb:/ipfs/QmdG8WNpQZuzssAfFfXmTnRKA2bnuiz4sdcj7QC2q7DvXW"
 			]
 		}
 	},
